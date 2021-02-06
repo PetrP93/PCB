@@ -86,7 +86,3 @@ class PCB_Env:
         plt.draw()
         plt.pause(0.0001)
 
-
-pcb_env = PCB_Env(100, 100)
-pcb_env.reset(10, 10, 70, 70)
-pcb_env.render()
